@@ -139,7 +139,7 @@ import java.util.UUID;
  *   {@link Client#batchAsync Client.batchAsync}). However, all write operations are *de facto* batches, since they
  *   must be wrapped inside a transaction (see below).
  */
-public class OfflineIndex {
+public class OfflineIndex implements Searchable {
     /** The client to which this index belongs. */
     private final OfflineClient client;
 

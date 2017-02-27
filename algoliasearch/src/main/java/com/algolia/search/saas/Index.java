@@ -48,7 +48,7 @@ import java.util.Map;
  * modify mutable arguments after they have been passed (unless explicitly noted).
  * </p>
  */
-public class Index {
+public class Index implements Searchable {
     /** The client to which this index belongs. */
     private Client client;
 
